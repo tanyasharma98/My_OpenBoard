@@ -1,6 +1,7 @@
 let red = document.querySelector(".red");
 let blue = document.querySelector(".blue");
 let green = document.querySelector(".green");
+let black = document.querySelector(".black");
 
 
 
@@ -20,6 +21,12 @@ green.addEventListener("click",(e)=>{
     if(cTool!="eraser"){
     tool.strokeStyle = "lightgreen";
     pencilColor ="lightgreen";
+    }
+})
+black.addEventListener("click",(e)=>{
+    if(cTool!="eraser"){
+    tool.strokeStyle = "black";
+    pencilColor ="black";
     }
 })
 
