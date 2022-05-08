@@ -98,6 +98,7 @@ canvas.addEventListener("mousemove", (e) => {
             socket.emit("drawStroke", data);
         }
     }
+
 })
 canvas.addEventListener("mouseup", (e) => {
     drawingMode = false;
